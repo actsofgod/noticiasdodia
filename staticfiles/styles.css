@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #dfdfdf;
+}
+
+.cols {
+  display: flex;
+  flex-flow: column;
+}
+
+.section-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 22px;
+  padding: 16px 0;
+  color: white;
+  background-color: #464646;
+}
+
+.card {
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  margin: 22px 0;
+}
+.card__title {
+  padding: 16px;
+  color: white;
+  background-color: #2984da;
+  border-bottom: 2px solid whitesmoke;
+}
+.card__link {
+  padding: 8px 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
